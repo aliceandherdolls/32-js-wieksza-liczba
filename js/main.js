@@ -4,9 +4,9 @@ let num2 = 5;
 function action(par1, par2) {
 
     if (par1 < par2) {
-        return num2;
+        return par2;
     } else {
-        return num1;
+        return par1;
     }
 }
 
